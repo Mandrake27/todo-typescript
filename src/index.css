@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.px1 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.mt2 {
+  margin-top: 2rem;
+}
+
+.input-field,
+.todoList {
+  max-width: 1400px;
+  margin: 2rem auto;
+}
+
+.todo {
+  margin-bottom: 1rem;
+}
+
+.todo.completed span {
+  text-decoration: line-through;
+}
+
+.todo label {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  width: 100%;
+
+  padding: 1rem;
+
+  background-color: #f3f3f3;
+
+  cursor: pointer;
+}
+
+.todo i {
+  z-index: 2;
+}
